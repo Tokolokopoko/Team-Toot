@@ -54,6 +54,18 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
+.download-button {
+  background-color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  margin:5px 120px;
+  border-radius: 8px;
+}
+.download-button:hover{
+  background-color: darkgray;
+
+}
 .img-fluid{
   width: 300px;
   height: 500px;;
@@ -159,9 +171,9 @@ body {
 #contact{
   margin:100px 0;
 }
-.number{
-  font-size: 40px;
-  font-weight: 600;
+.logo{
+  width: 200px;
+  
 }
 /*footer*/
 #footer{
