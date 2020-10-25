@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 #nav_bar {
   position: sticky;
@@ -13,7 +13,7 @@ body {
   z-index: 10;
 }
 .navbar {
-  background-image: linear-gradient(to right, #084cca, #031c4b);
+  background-image: linear-gradient(to left, #00AFB9, #031c4b);
   padding: 0 !important;
 }
 .navbar h1{
@@ -37,11 +37,16 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
+.logo {
+  width: 10%;
+  height: 100px;
+ 
+}
 
 /*Introduction section*/
 
 #introduction {
-  background-image: linear-gradient(to right, #084cca, #031c4b);
+  background-image: linear-gradient(to left, #00AFB9, #031c4b);
   color: #fff;
   padding-top: 6%;
 }
@@ -55,13 +60,14 @@ body {
   text-transform: uppercase;
 }
 .download-button {
-  background-color: black;
+  background-color: #fff;
   font-size: 15px;
   text-align: center;
   padding: 10px 10px;
   margin:5px 120px;
   border-radius: 8px;
 }
+
 .download-button:hover{
   background-color: darkgray;
 
@@ -92,7 +98,7 @@ body {
 }
 .title::before{
   content: '';
-  background: #084cca;
+  background: #F07167;
   height: 5px;
   width: 200px;
   margin-left: auto;
@@ -102,7 +108,7 @@ body {
 }
 .title::after{
   content: '';
-  background: #084cca;
+  background: #F07167;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -135,7 +141,7 @@ body {
   margin: 100px 0;
 }
 .testimonials{
-  border-left: 4px solid #084cca;
+  border-left: 4px solid #F07167;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -177,7 +183,7 @@ body {
 }
 /*footer*/
 #footer{
-  background-image: linear-gradient(to right, #084cca, #031c4b);
+  background-image: linear-gradient(to left, #00AFB9, #031c4b);
   color: #fff;
 }
 .footer-img{
