@@ -59,22 +59,50 @@ body {
   font-size: 20px;
   text-transform: uppercase;
 }
-.download-button {
-  background-color: #fff;
-  font-size: 15px;
+
+.button {
+  border-radius: 4px;
+  background-color: #F07167;
+  border: none;
+  color: #FFFFFF;
   text-align: center;
-  padding: 10px 10px;
+  font-size: 15px;
+  padding: 10px 30px;
   margin:5px 120px;
-  border-radius: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
-.download-button:hover{
-  background-color: darkgray;
-
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .img-fluid{
   width: 300px;
-  height: 500px;;
+  height: 400px;
+  border-radius: 10px;
 }
 .img-wave{
   width: 100%;
@@ -135,7 +163,7 @@ body {
 #about-us ul{
   margin-left: 20px;
 }
-/*testimonials*/
+/*persona*/
 
 #testimonials{
   margin: 100px 0;
@@ -167,7 +195,11 @@ body {
   margin-bottom:30px;
 }
 .social-icons img{
+  
+  height: 200px;
   width: 200px;
+  border-radius: 50%;
+  margin: 0 10px;
   transition: 0.5s;
 }
 .social-icons a:hover img{
